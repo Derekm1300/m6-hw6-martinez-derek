@@ -6,7 +6,7 @@ body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/triangles_pattern.png");
 }
 
-main, .test {
+main, .header {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 12px;
@@ -18,14 +18,12 @@ header {
     border-bottom: 2px solid black;
 }
 
-.test {
+.header {
     display: flex;
     align-items: center;
-   
-   
 }
 
-.test2 {
+.header-title {
     display: flex;
     align-items: center;
     margin-right: auto;
@@ -50,7 +48,6 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .connect, .content {
