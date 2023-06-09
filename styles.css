@@ -6,19 +6,32 @@ body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/triangles_pattern.png");
 }
 
-main, nav {
+main, .test {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 12px;
 }
 
-header, footer {
-    background-color: whitesmoke;
-    padding: 24px 0;
-}
 
 header {
+    background-color: whitesmoke;
     border-bottom: 2px solid black;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+.test2 {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    background-color: grey;
+    color: white;
+    padding: 0 20px;
 }
 
 nav {
@@ -26,13 +39,6 @@ nav {
     align-items: center;
 }
 
-
-
-.logo {
-    font-size: 30px;
-    margin-right: auto;
-    color: black;
-}
 
 .link {
     font-size: 20px;
@@ -75,9 +81,6 @@ img.app {
     padding: 5px 5px;
 }
 
-h1 {
-    background-color: red;
-}
 
 h2 {
     border-bottom: 1px solid black;
@@ -88,4 +91,6 @@ footer {
     margin-top: auto;
     text-align: center;
     border-top: 4px solid black;
+    padding: 24px 0;
+    background-color: whitesmoke;
 }   
